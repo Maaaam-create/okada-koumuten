@@ -813,14 +813,16 @@ footer {
 
     /* コンセプト */
     .concept .sec_text {
+        align-items: flex-start;
+        padding: 0 35px;
 
         h3 {
             font-size: 1.5rem;
         }
 
         p {
-            margin-top: 0;
             max-width: 340px;
+            text-align: left;
 
             br {
                 word-break: auto-phrase;
@@ -911,6 +913,10 @@ footer {
                 gap: 20px;
 
                 .adv_txt {
+                    .num{
+                        margin: 0;
+                    }
+
                     p {
                         padding: 0;
                     }
