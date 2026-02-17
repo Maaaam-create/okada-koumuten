@@ -744,6 +744,7 @@ footer {
 @media screen and (max-width: 768px) {
     body {
         word-break: auto-phrase;
+        font-size: 14px;
 
         .sec_title {
             p {
@@ -940,7 +941,7 @@ footer {
                 grid-column: 1 / 7;
                 grid-row: 8 / 11;
                 width: auto;
-                z-index: 20;
+                z-index: 10;
 
                 .sec_title {
                     padding: 0;
@@ -1019,7 +1020,7 @@ footer {
         input,
         textarea {
             padding: 10px 12px;
-            font-size: 14px;
+            font-size: 16px;
         }
 
         .contactForm_actions {
