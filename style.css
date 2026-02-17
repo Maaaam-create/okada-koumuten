@@ -61,7 +61,8 @@ body {
 
 /* ヘッダー */
 .g_header {
-    left: 0;right: 0;
+    left: 0;
+    right: 0;
     padding: 10px 0;
     color: var(--font-color);
     text-shadow: 0 0 5px #ffffff,
@@ -744,7 +745,6 @@ footer {
 @media screen and (max-width: 768px) {
     body {
         word-break: auto-phrase;
-        font-size: 14px;
 
         .sec_title {
             p {
@@ -821,6 +821,11 @@ footer {
         p {
             margin-top: 0;
             max-width: 340px;
+
+            br {
+                word-break: auto-phrase;
+                display: none;
+            }
         }
     }
 
@@ -829,6 +834,7 @@ footer {
         height: 150px;
         background-repeat: no-repeat;
         background-size: 90ch;
+
     }
 
 
