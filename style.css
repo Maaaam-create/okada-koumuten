@@ -825,7 +825,6 @@ footer {
             text-align: left;
 
             br {
-                word-break: auto-phrase;
                 display: none;
             }
         }
